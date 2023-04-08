@@ -13,7 +13,7 @@ This is a prototype of random generation framework for web projects. This protot
 * Psutil: 5.9
 
 Install Python dependencies:
-`ip install -r requirements.txt `
+`pip install -r requirements.txt `
 
 ## Usage
 ### Settings
