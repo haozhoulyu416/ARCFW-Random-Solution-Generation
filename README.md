@@ -15,9 +15,9 @@ This is a prototype of random generation framework for web projects. This protot
 ## Usage
 ### Settings
 The following parameters for the Automatic carbon footprint reduction tool in `parasettings.py` should be set.
-* FILE_PATH: The absolute address of the website file.
-* PAGE_URL: The URL of the homepage in the website file.
-* POP_SIZE: The initial population size of the NSGA-II model.
+* `FILE_PATH`: The absolute address of the website file.
+* `PAGE_URL`: The URL of the homepage in the website file.
+* `POP_SIZE`: The initial population size of the NSGA-II model.
 
 ### Start running prototype
 `python random_generation_tool.py`
@@ -37,9 +37,9 @@ The home page of the website is named “index.html”
 
 ## Output
 Output content:
-* Fitness Value_Quantity of transferred data: Return the fitness value of quantitiy of transferred data.
-* Fitness Value_The number of changes: Return the fitness value of the number of changes.
-* Fitness Value_Page load time: Return the fitness value of the page load time.
-* Fitness Value_RAM: Return the fitness value of the RAM.
-* Change actions taken: Return the array of modified actions.
-* Carbon Footprint Value: Return the final value of the carbon footprint score.
+* `Fitness Value_Quantity of transferred data` : Return the fitness value of quantitiy of transferred data.
+* `Fitness Value_The number of changes` : Return the fitness value of the number of changes.
+* `Fitness Value_Page load time` : Return the fitness value of the page load time.
+* `Fitness Value_RAM` : Return the fitness value of the RAM.
+* `Change actions taken` : Return the array of modified actions.
+* `Carbon Footprint Value` : Return the final value of the carbon footprint score.
